@@ -280,6 +280,7 @@ for movie in all_movies
     year_released = movie["year_released"]
     rated = movie["rated"]
     studio_name = studio["studio_name"]
+    
     puts "#{title} #{year_released} #{rated} #{studio_name}"
 end 
 
